@@ -8,5 +8,19 @@
 		"terminal": {
 			"return": "Incredible Solutions"
 		}
+	},
+	"about": {
+		"badge": "About Me",
+		"title": "Hello, I'm Douglas Maia!",
+		"content": "I'm a <1>Full Stack</1> developer passionate about transforming lines of code into real solutions. With solid experience in <2>web development</2>, my mission is to create architectures that are not only functional, but also scalable and elegant. My career path spans from complex enterprise applications to process automation, always with an obsessive focus on <3>performance</3> and user experience.",
+		"founder": {
+			"description": "Software house focused on technical excellence and innovation."
+		},
+		"stacks": {
+			"frontend": "Front-end",
+			"backend": "Back-end",
+			"database": "Database",
+			"tools": "Tools"
+		}
 	}
 }
