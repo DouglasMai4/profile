@@ -8,8 +8,6 @@ import { Projects } from './components/projects';
 function App() {
 	return (
 		<>
-			<Navbar />
-
 			<main className="min-h-dvh">
 				<Hero />
 
@@ -21,6 +19,8 @@ function App() {
 			</main>
 
 			<Footer />
+
+			<Navbar />
 		</>
 	);
 }

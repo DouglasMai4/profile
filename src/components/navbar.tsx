@@ -81,7 +81,7 @@ export function Navbar() {
 			initial={{ y: -100, opacity: 0 }}
 			animate={{ y: 0, opacity: 1 }}
 			transition={{ duration: 0.8, ease: [0.16, 1, 0.3, 1] }}
-			className="fixed bottom-4 md:top-4 md:bottom-auto inset-x-0 z-50 flex justify-center pointer-events-none px-4"
+			className="sticky md:fixed bottom-4 md:top-4 md:bottom-auto inset-x-0 z-50 flex justify-center pointer-events-none px-4"
 		>
 			<div
 				className={cn(
