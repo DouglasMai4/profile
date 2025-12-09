@@ -15,6 +15,18 @@ interface Resources {
       },
       "title": "Hello, I'm Douglas Maia!"
     },
+    "contact": {
+      "badge": "Contact",
+      "description": "I'm always open to new challenges and partnerships. Choose your preferred channel and send a <1>\"Hello\"</1>.",
+      "items": {
+        "email": "For detailed subjects",
+        "github": "Repositories and projects",
+        "linkedin": "Connect professionally",
+        "telegram": "Direct and secure chat",
+        "whatsapp": "Can we chat for a second?"
+      },
+      "title": "Let's build something <1>amazing together!</1>"
+    },
     "hero": {
       "badge": "Full Stack Developer",
       "description": "Transforming complex ideas into high-performance code. Experts in building scalable architectures and immersive interfaces.",

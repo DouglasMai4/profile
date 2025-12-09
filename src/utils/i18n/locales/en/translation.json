@@ -38,5 +38,17 @@
 			"wilo": "A platform for campaign automation and management powered by artificial intelligence, offering organization, productivity, and real-time insights.",
 			"forge": "CRM with native WhatsApp integration, centralizing leads, conversations, and sales routines in a single, fast, and scalable system."
 		}
+	},
+	"contact": {
+		"badge": "Contact",
+		"title": "Let's build something <1/> <2>amazing together!</2>",
+		"description": "I'm always open to new challenges and partnerships. Choose your preferred channel and send a <1>\"Hello\"</1>.",
+		"items": {
+			"whatsapp": "Can we chat for a second?",
+			"linkedin": "Connect professionally",
+			"github": "Repositories and projects",
+			"telegram": "Direct and secure chat",
+			"email": "For detailed subjects"
+		}
 	}
 }

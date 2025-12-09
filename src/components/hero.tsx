@@ -99,7 +99,7 @@ export function Hero() {
 							className="group border-primary/20 hover:bg-primary/5 hover:border-primary/50"
 							asChild
 						>
-							<a href="contact">
+							<a href="#contact">
 								{t('hero.talk')}
 								<TerminalIcon className="ml-2 w-4 h-4 text-primary" />
 							</a>
