@@ -126,8 +126,6 @@ export function Hero() {
 						}}
 						className="relative"
 					>
-						<div className="absolute -inset-1 bg-linear-to-r from-primary/30 to-green-500/30 rounded-xl blur-xl opacity-50 animate-pulse" />
-
 						<div className="relative bg-zinc-950/80 backdrop-blur-xl border border-white/10 rounded-xl overflow-hidden shadow-2xl w-full max-w-md">
 							<div className="flex items-center gap-2 px-4 py-3 bg-white/5 border-b border-white/5">
 								<div className="flex gap-2">
@@ -141,7 +139,7 @@ export function Hero() {
 								</div>
 							</div>
 
-							<div className="p-6 font-mono text-sm leading-relaxed overflow-x-auto">
+							<div className="p-6 font-mono text-sm leading-relaxed overflow-x-auto bg-zinc-900">
 								<div className="flex">
 									<span className="text-zinc-600 select-none mr-4 text-right w-6">
 										1
@@ -193,7 +191,7 @@ export function Hero() {
 									</span>
 									<div className="pl-4">
 										<span className="text-sky-300">start</span>:
-										<span className="text-purple-400"> ()</span>
+										<span className="text-zinc-400"> ()</span>
 										<span className="text-purple-400">{' =>'}</span>
 										<span className="text-zinc-400"> {`{`}</span>
 									</div>
