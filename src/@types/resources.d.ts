@@ -3,7 +3,7 @@ interface Resources {
   "translation": {
     "about": {
       "badge": "About Me",
-      "content": "I'm a <1>Full Stack</1> developer passionate about transforming lines of code into real solutions. With solid experience in <2>web development<2>, my mission is to create architectures that are not only functional, but also scalable and elegant. My career path spans from complex enterprise applications to process automation, always with an obsessive focus on <3>performance<3> and user experience.",
+      "content": "I'm a <1>Full Stack</1> developer passionate about transforming lines of code into real solutions. With solid experience in <2>web development</2>, my mission is to create architectures that are not only functional, but also scalable and elegant. My career path spans from complex enterprise applications to process automation, always with an obsessive focus on <3>performance</3> and user experience.",
       "founder": {
         "description": "Software house focused on technical excellence and innovation."
       },
@@ -24,6 +24,22 @@ interface Resources {
         "return": "Incredible Solutions"
       },
       "title": "Creator of <1>Digital Solutions</1>"
+    },
+    "projects": {
+      "badge": "Portfolio",
+      "code": "Code",
+      "completed": "Completed",
+      "description": "A collection of solved technical challenges, ranging from open-source applications to high-level enterprise systems.",
+      "inDevelopment": "In Development",
+      "items": {
+        "forge": "CRM with native WhatsApp integration, centralizing leads, conversations, and sales routines in a single, fast, and scalable system.",
+        "pulseGuard": "Status page for real-time service monitoring, with incident history and availability metrics. Focused on performance, transparency, and rapid fault detection.",
+        "wilo": "A platform for campaign automation and management powered by artificial intelligence, offering organization, productivity, and real-time insights."
+      },
+      "private": "Private",
+      "seeGithub": "View all repositories on GitHub",
+      "test": "Test",
+      "title": "Selected <1>Projects</1>"
     }
   }
 }

@@ -22,5 +22,21 @@
 			"database": "Database",
 			"tools": "Tools"
 		}
+	},
+	"projects": {
+		"badge": "Portfolio",
+		"title": "Selected <1>Projects</1>",
+		"description": "A collection of solved technical challenges, ranging from open-source applications to high-level enterprise systems.",
+		"seeGithub": "View all repositories on GitHub",
+		"test": "Test",
+		"code": "Code",
+		"private": "Private",
+		"completed": "Completed",
+		"inDevelopment": "In Development",
+		"items": {
+			"pulseGuard": "Status page for real-time service monitoring, with incident history and availability metrics. Focused on performance, transparency, and rapid fault detection.",
+			"wilo": "A platform for campaign automation and management powered by artificial intelligence, offering organization, productivity, and real-time insights.",
+			"forge": "CRM with native WhatsApp integration, centralizing leads, conversations, and sales routines in a single, fast, and scalable system."
+		}
 	}
 }

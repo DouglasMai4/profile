@@ -22,5 +22,21 @@
 			"database": "Banco de Dados",
 			"tools": "Ferramentas"
 		}
+	},
+	"projects": {
+		"badge": "Portfólio",
+		"title": "Projetos <1>Selecionados</1>",
+		"description": "Uma coleção de desafios técnicos resolvidos, desde aplicações open-source até sistemas corporativos de alto nível.",
+		"seeGithub": "Ver todos os repositórios no GitHub",
+		"test": "Testar",
+		"code": "Código",
+		"private": "Privado",
+		"completed": "Concluído",
+		"inDevelopment": "Em Desenvolvimento",
+		"items": {
+			"pulseGuard": "Status Page para monitoramento de serviços em tempo real, com histórico de incidentes e métricas de disponibilidade. Focado em performance, transparência e detecção rápida de falhas.",
+			"wilo": "Plataforma de automação e gestão de campanhas com inteligência artificial, oferecendo organização, produtividade e insights em tempo real.",
+			"forge": "CRM com integração nativa ao WhatsApp, centralizando leads, conversas e rotinas comerciais em um único sistema rápido e escalável."
+		}
 	}
 }
