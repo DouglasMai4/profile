@@ -1,3 +1,12 @@
 {
-	"helloWorld": "Hello World!"
+	"hero": {
+		"badge": "Full Stack Developer",
+		"title": "Creator of <1>Digital Solutions</1>",
+		"description": "Transforming complex ideas into high-performance code. Experts in building scalable architectures and immersive interfaces.",
+		"explore": "Explore my projects",
+		"talk": "Let's talk",
+		"terminal": {
+			"return": "Incredible Solutions"
+		}
+	}
 }
