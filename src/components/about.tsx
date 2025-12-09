@@ -140,6 +140,8 @@ export function About() {
 									</p>
 									<a
 										href="https://kingdomsoftwares.com.br"
+										target="_blank"
+										rel="noopener noreferrer"
 										className="text-xl font-bold text-foreground group-hover:text-primary transition-colors flex items-center gap-2"
 									>
 										Kingdom Softwares

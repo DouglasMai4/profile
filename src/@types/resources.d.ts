@@ -27,6 +27,11 @@ interface Resources {
       },
       "title": "Let's build something <1/> <2>amazing together!</2>"
     },
+    "footer": {
+      "allRights": "All rights reserved.",
+      "andCoffee": "and lots of coffee.",
+      "developedWith": "Developed with"
+    },
     "hero": {
       "badge": "Full Stack Developer",
       "description": "Transforming complex ideas into high-performance code. Experts in building scalable architectures and immersive interfaces.",

@@ -56,5 +56,10 @@
 			"telegram": "Direct and secure chat",
 			"email": "For detailed subjects"
 		}
+	},
+	"footer": {
+		"allRights": "All rights reserved.",
+		"developedWith": "Developed with",
+		"andCoffee": "and lots of coffee."
 	}
 }
