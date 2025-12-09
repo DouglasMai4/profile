@@ -1,19 +1,24 @@
 import { About } from './components/about';
 import { Contact } from './components/contact';
 import { Hero } from './components/hero';
+import { Navbar } from './components/navbar';
 import { Projects } from './components/projects';
 
 function App() {
 	return (
-		<main className="min-h-dvh">
-			<Hero />
+		<>
+			<Navbar />
 
-			<About />
+			<main className="min-h-dvh">
+				<Hero />
 
-			<Projects />
+				<About />
 
-			<Contact />
-		</main>
+				<Projects />
+
+				<Contact />
+			</main>
+		</>
 	);
 }
 

@@ -74,7 +74,7 @@ export function About() {
 	return (
 		<section
 			id="about"
-			className="py-24 px-4 relative overflow-hidden bg-background mt-50 md:mt-0"
+			className="py-24 px-4 relative overflow-hidden bg-background mt-50 md:mt-0 min-h-dvh"
 		>
 			<div className="absolute top-40 left-0 w-72 h-72 bg-primary/5 rounded-full blur-[100px] pointer-events-none" />
 			<div className="absolute bottom-20 right-0 w-96 h-96 bg-blue-500/5 rounded-full blur-[100px] pointer-events-none" />

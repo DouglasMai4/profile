@@ -27,6 +27,13 @@ export function Hero() {
 		visible: { opacity: 1, y: 0, transition: { duration: 0.5 } },
 	};
 
+	const scrollToSection = (href: string) => {
+		const element = document.querySelector(href);
+		if (element) {
+			element.scrollIntoView({ behavior: 'smooth' });
+		}
+	};
+
 	return (
 		<section
 			id="hero"
@@ -85,24 +92,20 @@ export function Hero() {
 						<Button
 							size="lg"
 							className="group text-base relative overflow-hidden bg-primary hover:bg-primary/90 text-primary-foreground shadow-lg shadow-primary/20"
-							asChild
+							onClick={() => scrollToSection('#projects')}
 						>
-							<a href="#projects">
-								{t('hero.explore')}
-								<ArrowRight className="ml-2 w-4 h-4 transition-transform group-hover:translate-x-1" />
-							</a>
+							{t('hero.explore')}
+							<ArrowRight className="ml-2 w-4 h-4 transition-transform group-hover:translate-x-1" />
 						</Button>
 
 						<Button
 							size="lg"
 							variant="outline"
 							className="group border-primary/20 hover:bg-primary/5 hover:border-primary/50"
-							asChild
+							onClick={() => scrollToSection('#contact')}
 						>
-							<a href="#contact">
-								{t('hero.talk')}
-								<TerminalIcon className="ml-2 w-4 h-4 text-primary" />
-							</a>
+							{t('hero.talk')}
+							<TerminalIcon className="ml-2 w-4 h-4 text-primary" />
 						</Button>
 					</motion.div>
 				</motion.div>

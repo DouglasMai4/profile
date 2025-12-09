@@ -25,7 +25,7 @@ interface Resources {
         "telegram": "Direct and secure chat",
         "whatsapp": "Can we chat for a second?"
       },
-      "title": "Let's build something <1>amazing together!</1>"
+      "title": "Let's build something <1/> <2>amazing together!</2>"
     },
     "hero": {
       "badge": "Full Stack Developer",
@@ -36,6 +36,12 @@ interface Resources {
         "return": "Incredible Solutions"
       },
       "title": "Creator of <1>Digital Solutions</1>"
+    },
+    "navbar": {
+      "about": "About",
+      "contact": "Contact",
+      "home": "Home",
+      "projects": "Projects"
     },
     "projects": {
       "badge": "Portfolio",

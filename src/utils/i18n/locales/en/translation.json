@@ -1,4 +1,10 @@
 {
+	"navbar": {
+		"home": "Home",
+		"about": "About",
+		"projects": "Projects",
+		"contact": "Contact"
+	},
 	"hero": {
 		"badge": "Full Stack Developer",
 		"title": "Creator of <1>Digital Solutions</1>",

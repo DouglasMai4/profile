@@ -79,7 +79,7 @@ export function Projects() {
 	return (
 		<section
 			id="projects"
-			className="py-24 px-4 bg-background relative overflow-hidden"
+			className="py-24 px-4 bg-background relative overflow-hidden min-h-dvh"
 		>
 			<div className="absolute top-0 left-1/2 -translate-x-1/2 w-full h-96 bg-primary/5 blur-[120px] rounded-full pointer-events-none" />
 

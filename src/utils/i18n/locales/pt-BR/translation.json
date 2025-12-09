@@ -1,4 +1,10 @@
 {
+	"navbar": {
+		"home": "Inicio",
+		"about": "Sobre",
+		"projects": "Projetos",
+		"contact": "Contato"
+	},
 	"hero": {
 		"badge": "Desenvolvedor Full Stack",
 		"title": "Criador de <1>Soluções Digitais</1>",

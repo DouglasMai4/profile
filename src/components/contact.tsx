@@ -147,7 +147,7 @@ export function Contact() {
 					initial="hidden"
 					whileInView="visible"
 					viewport={{ once: true }}
-					className="grid grid-cols-1 md:grid-cols-2 gap-6"
+					className="grid grid-cols-1 lg:grid-cols-2 gap-6"
 				>
 					{contacts.map((contact) => {
 						const Icon = contact.Icon;
@@ -159,7 +159,7 @@ export function Contact() {
 								target="_blank"
 								rel="noopener noreferrer"
 								variants={itemVariants}
-								className={`group relative p-6 rounded-2xl bg-zinc-900/40 border border-white/5 backdrop-blur-sm transition-all duration-500 hover:-translate-y-1 hover:shadow-2xl ${contact.bgHover} ${contact.borderHover} ${contact.shadow} ${contacts.length % 2 !== 0 && 'last:col-span-2'}`}
+								className={`group relative p-6 rounded-2xl bg-zinc-900/40 border border-white/5 backdrop-blur-sm transition-all duration-500 hover:-translate-y-1 hover:shadow-2xl ${contact.bgHover} ${contact.borderHover} ${contact.shadow} ${contacts.length % 2 !== 0 && 'md:last:col-span-2'}`}
 							>
 								<div className="flex items-center justify-between mb-4">
 									<div
